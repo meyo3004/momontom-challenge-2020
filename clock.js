@@ -8,9 +8,8 @@ function getTime() {
   const sec = date.getSeconds();
   const showHour = `${hour < 10 ? `0${hour}` : hour}`;
   const showMin = `${min < 10 ? `0${min}` : min}`;
-  const showSec = `${sec < 10 ? `0${sec}` : sec}`;
 
-  clockTitle.innerText = `${showHour}:${showMin}:${showSec}`;
+  clockTitle.innerText = `${showHour}:${showMin}`;
 }
 
 function init() {
