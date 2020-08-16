@@ -1,5 +1,83 @@
 body {
   background-color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+input {
+  background-color: transparent;
+  border-style: none;
+  border-bottom: solid 2px #cacaca;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.input-name {
+  font-size: 25px;
+  width: 250px;
+}
+.input-todo {
+  font-size: 20px;
+  width: 150px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+h4 {
+  font-size: 25px;
+  color: white;
+}
+ul {
+  margin-left: 45%;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+.js-toDoList {
+  font-size: 20px;
+  color: white;
+}
+
+.js-weather {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  color: white;
+  font-size: 15px;
 }
 
 .btn {
